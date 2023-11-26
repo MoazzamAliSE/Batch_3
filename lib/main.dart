@@ -1,4 +1,5 @@
 import 'package:first_proj/day1/day1.dart';
+import 'package:first_proj/day2/day2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Flutter',
-      home: Day1(),
+      home: Day2(),
     );
   }
 }
