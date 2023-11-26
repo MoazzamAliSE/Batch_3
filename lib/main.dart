@@ -1,3 +1,4 @@
+import 'package:first_proj/day1/day1.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,34 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Flutter',
-      home: HomePage(),
-    );
-  }
-}
-
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text("I am learning Flutter"),
-      ),
-      body: const Center(
-        child: Text(
-          "I am Fluttering",
-          style: TextStyle(
-            color: Colors.pink,
-            fontSize: 55.5,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 4,
-            wordSpacing: 10,
-            decorationStyle: TextDecorationStyle.dashed,
-            decoration: TextDecoration.underline,
-          ),
-        ),
-      ),
+      home: Day1(),
     );
   }
 }
