@@ -19,7 +19,6 @@ class PracticeRowColumn extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          
           const SizedBox(
             height: 10,
           ),
@@ -34,7 +33,7 @@ class PracticeRowColumn extends StatelessWidget {
           Container(
             height: 50,
             width: 250,
-            color: Colors.red,
+            color: Colors.yellow,
           ),
           const SizedBox(
             height: 10,

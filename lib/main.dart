@@ -1,5 +1,6 @@
 import 'package:first_proj/day1/day1.dart';
 import 'package:first_proj/day2/day2.dart';
+import 'package:first_proj/day3/day3.dart';
 import 'package:first_proj/day3/practice_row_col.dart';
 import 'package:flutter/material.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Flutter',
-      home: PracticeRowColumn(),
+      home: Day3(),
     );
   }
 }
