@@ -3,6 +3,7 @@ import 'package:first_proj/day2/day2.dart';
 import 'package:first_proj/day3/custom_button.dart';
 import 'package:first_proj/day3/day3.dart';
 import 'package:first_proj/day3/practice_row_col.dart';
+import 'package:first_proj/day4/FormFieldsDay4.dart/form_field_day4.dart';
 import 'package:first_proj/day4/day4.dart';
 import 'package:first_proj/day4/day4_1.dart';
 import 'package:first_proj/day4/day4Navigation/page1.dart';
@@ -17,9 +18,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Flutter',
-      home: Page1(),
+      home: FormsFieldsPage(),
     );
   }
 }
