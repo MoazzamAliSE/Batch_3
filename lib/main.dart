@@ -7,7 +7,12 @@ import 'package:first_proj/day4/FormFieldsDay4.dart/form_field_day4.dart';
 import 'package:first_proj/day4/day4.dart';
 import 'package:first_proj/day4/day4_1.dart';
 import 'package:first_proj/day4/day4Navigation/page1.dart';
+import 'package:first_proj/day5/cars.dart';
+import 'package:first_proj/day5/day5.dart';
+import 'package:first_proj/day5/day5_2.dart';
+import 'package:first_proj/form_mvvm/form_field_day4.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,9 +23,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'Flutter',
-      home: FormsFieldsPage(),
+      home: carsdetail(),
     );
   }
 }
